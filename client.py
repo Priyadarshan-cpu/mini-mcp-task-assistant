@@ -6,7 +6,7 @@ from pathlib import Path
 from mcp import ClientSession, StdioServerParameters
 from mcp.client.stdio import stdio_client
 
-
+#THIS CALLS MCP SERVER AND ASYNCH FOR ASYNCHRONOUS COMMUNICATION BETWEEN CLIENT AND SERVER
 async def main():
     server = StdioServerParameters(
         command=sys.executable,
