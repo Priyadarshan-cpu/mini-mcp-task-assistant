@@ -41,4 +41,5 @@ async def main():
 
 
 if __name__ == "__main__":
+    print("RUNNING")
     asyncio.run(main())
